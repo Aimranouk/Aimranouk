@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/stats.svg" width="100%" alt="2+ años · 15+ proyectos · 4 productos propios · web, iOS y Android">
+  <img src="./assets/stats.svg" width="100%" alt="4+ años · 15+ proyectos · 4 productos propios · web, iOS y Android">
 </p>
 
 <img src="./assets/h-camino.svg" width="100%" alt="01 Mi camino">
