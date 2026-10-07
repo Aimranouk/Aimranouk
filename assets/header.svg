@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" width="1000" height="470">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".55" stop-color="#e11d48"/><stop offset="1" stop-color="#ff3b30"/></linearGradient>
+<clipPath id="clip"><rect width="1000" height="470" rx="28"/></clipPath>
+<filter id="b" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="90"/></filter>
+<linearGradient id="gs" gradientUnits="userSpaceOnUse" x1="260" y1="0" x2="740" y2="0" spreadMethod="reflect">
+  <stop offset="0" stop-color="#8b5cf6"/><stop offset=".55" stop-color="#e11d48"/><stop offset="1" stop-color="#ff3b30"/>
+  <animate attributeName="x1" values="260;500;260" dur="8s" repeatCount="indefinite"/>
+  <animate attributeName="x2" values="740;980;740" dur="8s" repeatCount="indefinite"/>
+</linearGradient>
+<linearGradient id="g2" gradientUnits="userSpaceOnUse" x1="578" y1="0" x2="675" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".55" stop-color="#e11d48"/><stop offset="1" stop-color="#ff3b30"/></linearGradient></defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI","Inter",Helvetica,Arial,sans-serif}
+text:not([fill]){fill:#f5f5f7}
+text.m{fill:#86868b}
+.up{animation:up .9s cubic-bezier(.16,1,.3,1) both}
+@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+.d1{animation:d1 14s ease-in-out infinite}
+.d2{animation:d2 16s ease-in-out infinite}
+@keyframes d1{50%{transform:translate(90px,-40px)}}
+@keyframes d2{50%{transform:translate(-100px,-30px)}}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 2s ease-out infinite}
+@keyframes ping{from{transform:scale(1);opacity:.8}to{transform:scale(3);opacity:0}}
+</style>
+
+<rect width="1000" height="470" rx="28" fill="#000000"/>
+<g clip-path="url(#clip)">
+  <circle cx="330" cy="520" r="240" fill="#8b5cf6" opacity=".5" filter="url(#b)" class="d1"/>
+  <circle cx="690" cy="530" r="220" fill="#ff3b30" opacity=".42" filter="url(#b)" class="d2"/>
+</g>
+<rect x=".5" y=".5" width="999" height="469" rx="28" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+<text x="500" y="112" text-anchor="middle" font-size="19" font-weight="500" class="m up" style="animation-delay:.05s">Hola, soy</text>
+<text x="500" y="196" text-anchor="middle" font-size="82" font-weight="700" letter-spacing="-3" class="up" style="animation-delay:.15s">Aimran Oukham.</text>
+<text x="500" y="262" text-anchor="middle" font-size="48" font-weight="700" letter-spacing="-1.5" fill="url(#gs)" class="up" style="animation-delay:.35s">Full-Stack Developer.</text>
+<text x="500" y="318" text-anchor="middle" font-size="20" class="m up" style="animation-delay:.55s">Webs, SaaS y apps. Del diseño al despliegue.</text>
+<g class="up" style="animation-delay:.8s">
+  <rect x="250" y="362" width="500" height="50" rx="25" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".12"/>
+  <circle cx="280" cy="387" r="4.5" fill="#30d158"/>
+  <circle cx="280" cy="387" r="4.5" fill="none" stroke="#30d158" class="ping"/>
+  <text x="294" y="393" font-size="16" font-weight="500">Disponible</text>
+  <text x="388" y="393" font-size="16" class="m">·</text>
+  <text x="404" y="393" font-size="16" class="m">Valencia y Alicante</text>
+  <text x="562" y="393" font-size="16" class="m">·</text>
+  <text x="578" y="393" font-size="16" font-weight="600" fill="url(#g2)">aimran.es ›</text>
+</g>
+</svg>

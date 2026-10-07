@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 300" width="490" height="300">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".55" stop-color="#e11d48"/><stop offset="1" stop-color="#ff3b30"/></linearGradient>
+<clipPath id="c"><rect width="490" height="300" rx="28"/></clipPath>
+<filter id="b" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+<linearGradient id="t" gradientUnits="userSpaceOnUse" x1="34" y1="0" x2="180" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".55" stop-color="#e11d48"/><stop offset="1" stop-color="#ff3b30"/></linearGradient></defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI","Inter",Helvetica,Arial,sans-serif}
+text:not([fill]){fill:#f5f5f7}
+text.m{fill:#86868b}
+.up{animation:up .9s cubic-bezier(.16,1,.3,1) both}
+@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.br{animation:br 7s ease-in-out infinite}@keyframes br{50%{opacity:.6;transform:translate(-30px,-20px)}}
+</style>
+
+<rect width="490" height="300" rx="28" fill="#121214"/>
+<g clip-path="url(#c)">
+  <circle cx="450" cy="310" r="150" fill="#ff3b30" opacity=".35" filter="url(#b)" class="br" style="animation-delay:1.2s"/>
+</g>
+<text x="34" y="56" font-size="15" font-weight="600" fill="url(#t)">Web app</text>
+<text x="34" y="104" font-size="36" font-weight="700" letter-spacing="-1">AIMRAN Tools</text>
+<text x="34" y="150" font-size="17" class="m">PDF, vídeo, imagen y texto.</text><text x="34" y="176" font-size="17" class="m">Todo en tu navegador. Nada se sube.</text>
+<text x="34" y="236" font-size="14" class="m">React  ·  TypeScript  ·  100% local</text>
+<text x="34" y="268" font-size="16" font-weight="600" fill="#f5f5f7">tools.aimran.es ›</text>
+</svg>

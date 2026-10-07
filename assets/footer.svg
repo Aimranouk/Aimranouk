@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".55" stop-color="#e11d48"/><stop offset="1" stop-color="#ff3b30"/></linearGradient>
+<clipPath id="fc"><rect width="1000" height="300" rx="28"/></clipPath>
+<filter id="fb" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="80"/></filter>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".3"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  <animate attributeName="x1" values="-1;1.2" dur="3s" repeatCount="indefinite"/>
+  <animate attributeName="x2" values="0;2.2" dur="3s" repeatCount="indefinite"/>
+</linearGradient></defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI","Inter",Helvetica,Arial,sans-serif}
+text:not([fill]){fill:#f5f5f7}
+text.m{fill:#86868b}
+.up{animation:up .9s cubic-bezier(.16,1,.3,1) both}
+@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+.d1{animation:d1 12s ease-in-out infinite}.d2{animation:d2 14s ease-in-out infinite}
+@keyframes d1{50%{transform:translate(70px,-30px)}}@keyframes d2{50%{transform:translate(-80px,-20px)}}
+</style>
+
+<rect width="1000" height="300" rx="28" fill="#000000"/>
+<g clip-path="url(#fc)">
+  <circle cx="380" cy="360" r="200" fill="#8b5cf6" opacity=".5" filter="url(#fb)" class="d1"/>
+  <circle cx="630" cy="370" r="190" fill="#ff3b30" opacity=".45" filter="url(#fb)" class="d2"/>
+</g>
+<rect x=".5" y=".5" width="999" height="299" rx="28" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+<text x="500" y="96" text-anchor="middle" font-size="46" font-weight="700" letter-spacing="-1.5" class="up">¿Hablamos?</text>
+<text x="500" y="138" text-anchor="middle" font-size="19" class="m up" style="animation-delay:.1s">Webs, tiendas online, SaaS y apps a medida.</text>
+<g class="up" style="animation-delay:.25s">
+  <rect x="390" y="176" width="220" height="54" rx="27" fill="url(#g)"/>
+  <rect x="390" y="176" width="220" height="54" rx="27" fill="url(#shine)"/>
+  <text x="500" y="210" text-anchor="middle" font-size="18" font-weight="600" fill="#fff">Visita aimran.es</text>
+</g>
+</svg>
