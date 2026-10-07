@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 160" width="1000" height="160">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".55" stop-color="#e11d48"/><stop offset="1" stop-color="#ff3b30"/></linearGradient><linearGradient id="n0" gradientUnits="userSpaceOnUse" x1="26" y1="0" x2="140" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".55" stop-color="#e11d48"/><stop offset="1" stop-color="#ff3b30"/></linearGradient><linearGradient id="n1" gradientUnits="userSpaceOnUse" x1="279.5" y1="0" x2="393.5" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".55" stop-color="#e11d48"/><stop offset="1" stop-color="#ff3b30"/></linearGradient><linearGradient id="n2" gradientUnits="userSpaceOnUse" x1="533" y1="0" x2="647" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".55" stop-color="#e11d48"/><stop offset="1" stop-color="#ff3b30"/></linearGradient><linearGradient id="n3" gradientUnits="userSpaceOnUse" x1="786.5" y1="0" x2="900.5" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".55" stop-color="#e11d48"/><stop offset="1" stop-color="#ff3b30"/></linearGradient></defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI","Inter",Helvetica,Arial,sans-serif}
+text:not([fill]){fill:#f5f5f7}
+text.m{fill:#86868b}
+.up{animation:up .9s cubic-bezier(.16,1,.3,1) both}
+@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+</style>
+<g class="up" style="animation-delay:0.1s">
+<rect x="0" y="0" width="239.5" height="160" rx="24" fill="#121214"/>
+<text x="26" y="84" font-size="54" font-weight="700" letter-spacing="-2" fill="url(#n0)">4+</text>
+<text x="26" y="122" font-size="16" class="m">años en producción</text></g><g class="up" style="animation-delay:0.22s">
+<rect x="253.5" y="0" width="239.5" height="160" rx="24" fill="#121214"/>
+<text x="279.5" y="84" font-size="54" font-weight="700" letter-spacing="-2" fill="url(#n1)">130+</text>
+<text x="279.5" y="122" font-size="16" class="m">proyectos entregados</text></g><g class="up" style="animation-delay:0.33999999999999997s">
+<rect x="507" y="0" width="239.5" height="160" rx="24" fill="#121214"/>
+<text x="533" y="84" font-size="54" font-weight="700" letter-spacing="-2" fill="url(#n2)">4</text>
+<text x="533" y="122" font-size="16" class="m">productos propios</text></g><g class="up" style="animation-delay:0.45999999999999996s">
+<rect x="760.5" y="0" width="239.5" height="160" rx="24" fill="#121214"/>
+<text x="786.5" y="84" font-size="54" font-weight="700" letter-spacing="-2" fill="url(#n3)">3</text>
+<text x="786.5" y="122" font-size="16" class="m">web, iOS y Android</text></g>
+</svg>
